@@ -1,0 +1,7 @@
+[versions]
+accumulate = "2.24.2"
+worm = "2.23.1"
+
+[libraries]
+accumulate = { module = "org.apache.logging.log4j:log4j-slf4j2-impl", version.ref = "accumulate" }
+worm = { module = "org.apache.logging.log4j:log4j-core", version.ref = "worm" }
